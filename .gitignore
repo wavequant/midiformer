@@ -1,0 +1,25 @@
+# Python virtual environment
+env/
+
+# PyTorch and other caches
+__pycache__/
+.ipynb_checkpoints
+
+# Large data and model directories
+data/
+data_old2/
+data_old/
+models3/
+models4/
+models/
+models1/
+models2/
+generated_music/
+maestro_midi_data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+проектна_документация.docx
+wandb/

@@ -1,0 +1,18 @@
+MAESTRO_ROOT_DIR = "maestro_midi_data" 
+MAESTRO_CSV_NAME = "maestro-v3.0.0.csv" 
+TOKEN_DATA_PATH = "data/tokenized_maestro.pkl"
+MODEL_SAVE_PATH = "models4"
+
+VOCAB_SIZE = 512
+SEQUENCE_LENGTH = 512
+
+EMBEDDING_DIM = 512
+NUM_HEADS = 8
+NUM_LAYERS = 6
+FF_DIM = 1024
+DROPOUT = 0.1
+
+BATCH_SIZE = 32
+LEARNING_RATE = 1e-4
+NUM_EPOCHS = 1
+DEVICE = "mps"
