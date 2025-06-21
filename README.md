@@ -1,4 +1,4 @@
-# MidiFormer: A Transformer for Symbolic Music Generation
+# 🎹 MidiFormer: A Transformer for Symbolic Music Generation
 
 This project implements a decoder-only Transformer model to generate symbolic music in the style of classical piano. The model is built from scratch in PyTorch and trained on the [MAESTRO dataset](https://magenta.tensorflow.org/datasets/maestro), learning the complex patterns and structures of virtuosic piano performances.
 
