@@ -116,3 +116,33 @@ python 03_generate.py models/best_model_step_XYZ.pt --test_seed_index 25 --seed_
 python 03_generate.py models/model_A.pt models/model_B.pt --test_seed_index 10 --beam_size 5
 ```
 Generated files will be saved in the `generated_music/` directory with descriptive names.
+
+---
+
+## 📜 Dataset and Citation
+
+This project would not be possible without the **MAESTRO (MIDI and Audio Edited for Synchronous Tracks and Organisation) Dataset**.
+
+The dataset is made available by Google LLC under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/). This project, as a derivative work, is also licensed under CC BY-NC-SA 4.0.
+
+If you use this project or the MAESTRO dataset in your work, please cite the original paper:
+
+Curtis Hawthorne, Andriy Stasyuk, Adam Roberts, Ian Simon, Cheng-Zhi Anna Huang, Sander Dieleman, Erich Elsen, Jesse Engel, and Douglas Eck. "Enabling Factorized Piano Music Modeling and Generation with the MAESTRO Dataset." In *International Conference on Learning Representations*, 2019.
+
+**BibTeX Entry:**
+```bibtex
+@inproceedings{
+  hawthorne2018enabling,
+  title={Enabling Factorized Piano Music Modeling and Generation with the {MAESTRO} Dataset},
+  author={Curtis Hawthorne and Andriy Stasyuk and Adam Roberts and Ian Simon and Cheng-Zhi Anna Huang and Sander Dieleman and Erich Elsen and Jesse Engel and Douglas Eck},
+  booktitle={International Conference on Learning Representations},
+  year={2019},
+  url={https://openreview.net/forum?id=r1lYRjC9F7},
+}
+```
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **Creative Commons Attribution Non-Commercial Share-Alike 4.0 International License**. See the `LICENSE` file for more details.
